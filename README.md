@@ -25,11 +25,11 @@ El sistema implementa una arquitectura basada en eventos y punteros de función,
 
 # ⚙️ Arquitectura del Software
 Lo más destacado de este repositorio es la fusión dinámica de las prácticas. El programa principal permite alternar entre diferentes modos de funcionamiento sin necesidad de reprogramar el dispositivo:
-| Comando | Modo | Lógica del Relé (Pin 4) |
-| :--- | :--- | :--- |
-| `#1` | **Pulsado/Soltado** | El relé se activa solo mientras se pulsa el Botón 1. |
-| `#2` | **Interruptor** | El Botón 1 cambia el estado (On/Off) del relé en cada pulsación. |
-| `#3` | **Conmutador** | **Cualquier botón** (1, 2 o el Opto) cambia el estado del relé (Modo P3). |
+| Comando | Modo | Lógica de P1 | Lógica de P3 |
+| :--- | :--- | :--- | :--- |
+| `#1` | **Pulsado/Soltado** | Se muestra mensaje cuando se pulsa y suelta el botón seleccionado. | El relé sigue el estado del Botón 1 en tiempo real. |
+| `#2` | **Interruptor** | Se muestra mensaje cuando se enciende y se apaga cada botón por separado. | El Botón 1 actúa como interruptor biestable para el relé. |
+| `#3` | **Conmutador** | Se muestra mensaje cuando se enciende y se apaga el sistema. | Cualquier botón (1, 2 u Opto) puede cambiar el estado del relé. |
 
 # 💻 Instalación y Uso
 1. Clona el repositorio.
