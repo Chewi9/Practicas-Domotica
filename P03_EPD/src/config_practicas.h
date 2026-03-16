@@ -13,7 +13,6 @@ void config_practica1_apt_1(void);
 void config_practica1_apt_2(void);
 void config_practica1_apt_3(void);
 
-void config_practica3(void);
 
 
 #endif /* CONFIG_PRACTICAS_H_ */

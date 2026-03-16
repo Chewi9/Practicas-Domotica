@@ -33,11 +33,4 @@ void config_practica1_apt_3(void){
 	domoboard.BTN_OPT.SensorEvent = conmutador;
 }
 
-void config_practica3(void){
-	domoboard.BOTON1.SensorEvent = conmutador;
-
-	domoboard.BOTON2.SensorEvent = conmutador;
-
-	domoboard.BTN_OPT.SensorEvent = conmutador;
-}
 
