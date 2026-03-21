@@ -53,6 +53,7 @@ typedef struct
 
 #define 	RELE_P					4			// RELE 1
 
+#define 	TRIAC_P					7			// TRIAC 1
 
 /****************************************************************************/
 /***        Exported Class                                                ***/
@@ -73,7 +74,8 @@ public:
 
 	//Salidas
 	tsActuator		RELE;
-
+	tsActuator		TRIAC;
+	
 	void 			leerAllSensor(void);
 	static  void 	leerSensor(ptsSensor Sensor);
 	static  void	setActuator(tsActuator *Actuator, bool val);

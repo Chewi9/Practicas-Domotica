@@ -47,3 +47,29 @@ void config_practica3_apt_2(){
 
 	domoboard.BTN_OPT.SensorEvent = conmutador_sal;
 }
+
+void config_practica4_apt_2(){
+	domoboard.BOTON1.SensorEvent = control_rele_pulsador;
+	domoboard.BOTON2.SensorEvent = control_triac_pulsador;
+}
+
+void config_practica4_apt_3(){
+	domoboard.BOTON1.SensorEvent = control_rele_interruptor;
+	domoboard.BOTON1.Aux = OFF;
+	domoboard.BOTON2.SensorEvent = control_triac_interruptor;
+	domoboard.BOTON2.Aux = OFF;
+}
+
+void config_practica4_apt_4(){
+	domoboard.BOTON1.SensorEvent = conmutador_triac;
+	domoboard.BOTON2.SensorEvent = conmutador_triac;
+
+	domoboard.BTN_OPT.SensorEvent = control_rele_interruptor;
+	domoboard.BTN_OPT.Aux = OFF;
+}
+
+void config_practica4_apt_5(){
+	domoboard.BOTON1.SensorEvent = conmutador_total;
+	domoboard.BOTON2.SensorEvent = conmutador_total;
+	domoboard.BTN_OPT.SensorEvent = conmutador_total;
+}

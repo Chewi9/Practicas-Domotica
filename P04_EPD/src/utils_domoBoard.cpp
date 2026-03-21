@@ -66,6 +66,42 @@ void conmutador_sal(void *Sensor)
 }
 
 
+void control_rele_pulsador(void *Sensor)
+{
+	Pulsado_Soltado(Sensor);
+	ptsSensor s = (ptsSensor)Sensor;
+	DomoBoard::setActuator(&domoboard.RELE, (s->valor != s->valor_Df));
+}
 
+void control_triac_pulsador(void *Sensor)
+{
+	Pulsado_Soltado(Sensor);
+	ptsSensor s = (ptsSensor)Sensor;
+	DomoBoard::setActuator(&domoboard.TRIAC, (s->valor != s->valor_Df));
+}
 
+void control_rele_interruptor(void *Sensor)
+{
+	Interruptor(Sensor);
+	DomoBoard::setActuator(&domoboard.RELE, ((ptsSensor)Sensor)->Aux);
+}
 
+void control_triac_interruptor(void *Sensor)
+{
+	Interruptor(Sensor);
+	DomoBoard::setActuator(&domoboard.TRIAC, ((ptsSensor)Sensor)->Aux);
+}
+
+void conmutador_triac(void *Sensor)
+{
+	conmutador(Sensor);
+	DomoBoard::setActuator(&domoboard.TRIAC, ((ptsSensor)Sensor)->Aux);
+}
+
+void conmutador_total(void *Sensor)
+{
+	conmutador(Sensor);
+	bool estado = ((ptsSensor)Sensor)->Aux;
+	DomoBoard::setActuator(&domoboard.RELE, estado);
+	DomoBoard::setActuator(&domoboard.TRIAC, estado);
+}

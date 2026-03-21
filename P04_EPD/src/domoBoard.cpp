@@ -21,6 +21,7 @@ DomoBoard::DomoBoard()
 	pinMode(BTN_OPT_P, INPUT);      	//Pin Entrada Optocoplada
 
 	pinMode(RELE_P, OUTPUT);
+	pinMode(TRIAC_P, OUTPUT);
 
 	BOTON1.pin 			= BUTTON1_P;
 	BOTON1.valor 		= digitalRead(BUTTON1_P);		//Leer Valor por defecto
@@ -46,6 +47,10 @@ DomoBoard::DomoBoard()
 
 	RELE.pin 			= RELE_P;
 	RELE.estado 		= LOW;
+
+	TRIAC.pin 			= TRIAC_P;
+	TRIAC.estado 		= LOW;
+
 }
 
 void DomoBoard::leerAllSensor(void){

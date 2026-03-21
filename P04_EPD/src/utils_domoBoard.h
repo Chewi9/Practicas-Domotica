@@ -28,5 +28,17 @@ void Pulsado_Soltado(void *Sensor);
 void conmutador(void *Sensor);
 void conmutador_sal(void *Sensor);
 
+void control_rele_pulsador(void *Sensor);
+void control_triac_pulsador(void *Sensor);
+
+void control_rele_interruptor(void *Sensor);
+void control_triac_interruptor(void *Sensor);
+
+void conmutador_rele(void *Sensor);
+void conmutador_triac(void *Sensor);
+void conmutador_total(void *Sensor);
+
+
+
 
 #endif /* UTILS_DOMOBOARD_H_ */

@@ -22,4 +22,9 @@ void config_practica1_apt_3();
 
 void config_practica3_apt_2();
 
+void config_practica4_apt_2();
+void config_practica4_apt_3();
+void config_practica4_apt_4();
+void config_practica4_apt_5();
+
 #endif /* CONFIG_PRACTICAS_H_ */
