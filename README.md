@@ -36,7 +36,7 @@ Lo más destacado de este repositorio es la fusión dinámica de las prácticas.
 | `#2` | **Interruptor** | Se muestra mensaje cuando se enciende y se apaga cada botón por separado. | El Botón 1 actúa como interruptor biestable para el relé. |
 | `#3` | **Conmutador** | Se muestra mensaje cuando se enciende y se apaga el sistema. | Cualquier botón (1, 2 u Opto) puede cambiar el estado del relé. |
 
-| Comando | Lógica de P4 |
+| Comando | Modo | Lógica de P4 |
 | :--- | :--- | :--- |
 | `#2` | **Pulsado/Soltado** | Botón 1 para Relé, Botón 2 para TRIAC |
 | `#3` | **Interruptor** | Botón 1 para Relé, Botón 2 para TRIAC |
