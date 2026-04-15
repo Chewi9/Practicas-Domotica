@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JSSC"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/CommTransport"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/myModBus"/>
+	<classpathentry kind="lib" path="C:/Users/hugoh/Downloads/myModBus.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hugoh/Downloads/CommTransport.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hugoh/Downloads/jssc-2.9.6-sources/jssc-2.9.6.jar" sourcepath="C:/Users/hugoh/Downloads/jssc-2.9.6-sources/jssc-2.9.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/hugoh/Downloads/jssc-2.9.6-sources/jssc-2.9.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-21.0.10"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
