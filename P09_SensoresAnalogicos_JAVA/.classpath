@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JSSC"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/CommTransport"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/myModBus"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SteelSeries"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/hugoh/Desktop/Domotica/Dependencias/CommTransport.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hugoh/Desktop/Domotica/Dependencias/myModBus.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hugoh/Desktop/Domotica/Dependencias/jssc-2.9.6-sources/jssc-2.9.6.jar" sourcepath="C:/Users/hugoh/Desktop/Domotica/Dependencias/jssc-2.9.6-sources/jssc-2.9.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/hugoh/Desktop/Domotica/Dependencias/jssc-2.9.6-sources/jssc-2.9.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/hugoh/Desktop/Domotica/Dependencias/steelseries-3.9.31.2/SteelSeries-3.9.31.2.jar" sourcepath="C:/Users/hugoh/Desktop/Domotica/Dependencias/steelseries-3.9.31.2/SteelSeries-3.9.31.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/hugoh/Desktop/Domotica/Dependencias/steelseries-3.9.31.2/SteelSeries-3.9.31.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/hugoh/Desktop/Domotica/Dependencias/trident-7.3/trident-7.3.jar" sourcepath="C:/Users/hugoh/Desktop/Domotica/Dependencias/trident-7.3/trident-7.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/hugoh/Desktop/Domotica/Dependencias/trident-7.3/trident-7.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
